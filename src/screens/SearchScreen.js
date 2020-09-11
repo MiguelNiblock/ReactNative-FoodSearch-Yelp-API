@@ -6,6 +6,7 @@ import ResultsList from '../Components/ResultsList';
 
 const SearchScreen = () => {
 
+  // console.log(props) // to see navigation object
   const [term, setTerm] = useState('');
   const [searchApi, results, errorMessage] = useResults();
   
@@ -19,7 +20,7 @@ const SearchScreen = () => {
   };
 
   return (
-    // <View style={{flex:1}}>
+    // <View style={{flex:1}}> // same as `<></>`
     <>
       <SearchBar 
         term={term} 
