@@ -13,3 +13,9 @@ This react native app allows a user to search for restaurants on Yelp with a sea
 - Reusable components `ResultsList` and `ResultsDetail` display lists of restaurant results, grouped by price. ('Affordable', 'Pricier' and 'Big Spender')
 - Callback arrow functions are passed to the `SearchBar` component, to update the state, and send the request to Yelp on submit.
 - When a particular restaurant is pressed on, react-navigation loads a separate screen `ResultsShowScreen`, which sends an async request to Yelp to obtain the details of that particular business. Photos are then displayed in the screen with a `FlatList`.
+
+---
+
+Note:
+
+To make the app work, a yelp API key is necessary. Create a developer account in Yelp and save your API key. Then create file `apiKey.js` in `src/api/`, and just type `export default 'Bearer <Your_API_Key>'`, and that's it. The import statement in `src/api/yelp.js` will automatically make use of the API Key.
