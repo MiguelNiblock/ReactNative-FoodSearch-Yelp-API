@@ -3,11 +3,6 @@
 This react native app allows a user to search for restaurants on Yelp with a search term. When pressing on a restaurant' preview, the user is taken to a new screen that shows more photos of the restaurant.
 
 
-![Alt Text](gif.gif)
-
-
-
-
 [Edit on Snack:](https://snack.expo.io/@miguelniblock/github.com-miguelniblock-reactnative-foodsearch-yelp-api) 
 
 ### Technical Features:
