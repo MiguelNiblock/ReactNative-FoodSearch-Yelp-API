@@ -19,3 +19,14 @@ This react native app allows a user to search for restaurants on Yelp with a sea
 Note:
 
 To make the app work, a yelp API key is necessary. Create a developer account in Yelp and save your API key. Then create file `apiKey.js` in `src/api/`, and just type `export default 'Bearer <Your_API_Key>'`, and that's it. The import statement in `src/api/yelp.js` will automatically make use of the API Key.
+
+### Search Results
+
+![](https://github.com/MiguelNiblock/miguelniblock.github.io/raw/master/images/foodsearchyelpapi-searchscreen.png)
+
+### Business Photos
+
+![](https://github.com/MiguelNiblock/miguelniblock.github.io/raw/master/images/foodsearchyelpapi-detailscreen)
+
+
+
