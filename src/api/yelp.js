@@ -1,5 +1,10 @@
 import axios from 'axios';
-import key from './apiKey';
+
+try {
+  const key = import('./apiKey');
+} catch (error) {
+  const key = ''
+}
 
 export default axios.create({
   baseURL: 'https://api.yelp.com/v3/businesses',
