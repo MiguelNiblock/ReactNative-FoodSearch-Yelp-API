@@ -9,4 +9,4 @@ npm-debug.*
 web-build/
 web-report/
 android_build/
-src/api/
+src/api/apiKey.js
